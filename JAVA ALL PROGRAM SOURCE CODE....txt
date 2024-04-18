@@ -1,0 +1,333 @@
+// In the name of ALLAH the most gracious the most merciful:
+import java.security.SecureRandom;
+import java.util.Arrays;
+import java.util.Random;
+import java.util.Scanner;
+import java.util.StringJoiner;
+
+public class Main {
+
+    // FUNCTION IN JAVA:
+
+//        public static void add(int a, int b, int c)
+//        {
+//            int sum = a + b + c;
+//            System.out.println(sum);
+//        }
+
+
+//    public static void caller()
+//    {
+//        System.out.println("GOOD MORNING ~");
+//    }
+
+
+//    public static void greeting(String Name)
+//    {
+//        System.out.println(STR."MY PROGRAMMING INSTRUCTERS: \{Name}");
+//    }
+
+
+    public static void main(String[] args)
+    {
+        // In the name of ALLAH the most gracious the most merciful:
+
+//        System.out.println("THANKS OF ALLAH ~");
+
+        // Data types in Java:
+
+//        int a = 20;
+//        float b = 20.20F;
+//        double c = 30.30D;
+//        char d = '$';
+//        String str = "String is an important data type in any programming language";
+//        Byte e = 127;
+//        long f = 12345678900L;
+//        short g = 9;
+//        System.out.println(a);
+//        System.out.println(b);
+//        System.out.println(c);
+//        System.out.println(d);
+//        System.out.println(str);
+//        System.out.println(e);
+//        System.out.println(f);
+//        System.out.println(g);
+
+        // Constant in JAVA:
+
+//        final int a = 20;
+//        System.out.println(a);
+
+        // Type Casting in JAVA both Implicit & Explicit:
+
+//        int a = (int)10.10;
+//        System.out.println(a);
+//        double b = (int)8.8;
+//        System.out.println(b);
+//        Byte c = (int)127;
+//        long l = (int)10294853442134354L;
+//        System.out.println(c);
+//        System.out.println(l);
+
+//         int x = 'y';
+//         double y = x;
+//        System.out.println(x);
+//        System.out.println(y);
+
+
+        // Taking input from user in Java:
+
+//        System.out.println("Enter your name:");
+//        Scanner scan = new Scanner(System.in);
+//        String name = scan.nextLine();
+//        System.out.println("Enter your age:");
+//        Scanner Age = new Scanner(System.in);
+//        int age = Age.nextInt();
+//        System.out.println("Your name is " + name);
+//        System.out.println("You are below " + age);
+
+        // Arthematic Operators in JAVA:
+
+//        int a = 20;
+//        int b = 20;
+//        a += 30;
+//        System.out.println(a + b);
+//        System.out.println(a - b);
+//        System.out.println(a * b);
+//        System.out.println(a / b);
+//        System.out.println(a % b);
+
+        // Comparison Operators in JAVA:
+
+//        int a = 10;
+//        int b = 20;
+//        System.out.println(a == b);
+//        System.out.println(a != b);
+//        System.out.println(a > b);
+//        System.out.println(a < b);
+//        System.out.println(a >= b);
+//        System.out.println(a <= b);
+
+        // Assignment Operators in Java:
+
+        // Equal to '=' is a Assignment Operator:
+//        int a = 19;
+//        a += 1;
+//        a -= 1;
+//        a *= 1;
+//        a /= 1;
+//        a %= 1;
+//        System.out.println(a);
+
+        // Logical Operators in Java:
+
+//        System.out.println(true && false);   // And Operator:
+//        System.out.println(true || false);   //  Or Operator:
+//        System.out.println(!false);          // Not Operator:
+
+        // STRING METHODS OR FUNCTIONS IN JAVA:
+
+//        String Functions = "String is random data type ~";
+//        System.out.println(Functions.toUpperCase());
+//        System.out.println(Functions.toLowerCase());
+//        System.out.println(Functions.endsWith("~"));
+//        System.out.println(Functions.replace("data type" , "Data Type"));
+//        System.out.println(Functions.charAt(1));
+//        System.out.println(Functions.replaceFirst("String", "STRING"));
+//        System.out.println(Functions.indexOf("S"));
+//        System.out.println(Functions.length());
+//        System.out.println(Functions.substring(1));
+
+        // String Interpolation Function In Java:
+
+//        String INTERPOLATION = "String Is Amazing Data Type In Any Programming Language:";
+//        System.out.println(STR."In Fact: \{INTERPOLATION}");
+
+        // Increment and Decrement Operator in JAVA:
+
+//        int a = 6;
+//        System.out.println(a++);
+//        System.out.println(++a);
+//        System.out.println(a--);
+//        System.out.println(--a);
+
+        // Arrays functions & declaration in JAVA:
+
+//       int[] marks = {77, 88, 99};
+//       System.out.println(marks[0]);
+
+        // Array Length Function:
+
+//        System.out.println(marks.length);
+
+        // Array Sort Function:
+
+//        System.out.println(marks[0]);
+//        Arrays.sort(marks);
+//        System.out.println(marks[1]);
+
+        // 2D Array in JAVA:
+
+//        int[][] numbers= {{1, 2, 3}, {4, 5, 6}};
+//        System.out.println(numbers[0][0]);
+
+
+        // Math Functions in JAVA:
+
+//        int a = 20;
+//        int b = 40;
+//        System.out.println(Math.max(a, b));
+//        System.out.println(Math.min(a, b));
+//        System.out.println(Math.abs(-1));
+//        System.out.println(Math.sqrt(144.0));
+//        System.out.println(Math.log(1264));
+//        System.out.println(Math.random());
+//        System.out.println(Math.sin(191.191));
+//        System.out.println(Math.tan(121.121));
+//        System.out.println(2+(a+b)*Math.random());
+//        System.out.println((int)(Math.random() * 100));
+
+//         Conditional Statements [ IF_ELSE ] in JAVA:
+
+//        System.out.println("Enter Your Age:");
+//        Scanner Price = new Scanner(System.in);
+//        int age = Price.nextInt();
+//        if (age < 2)
+//        {
+//            System.out.println("You're just born");
+//        }
+//       else if (age < 10)
+//        {
+//            System.out.println("Please, first of all finish your high school");
+//        }
+//        else if (age < 20)
+//        {
+//            System.out.println("You're below this age Sir");
+//        }
+//        else if (age < 25)
+//        {
+//            System.out.println("You're eligible for this post Sir");
+//        }
+//            else if (age <= 70)
+//        {
+//            System.out.println("You're an old sir and cannot eligible for this post");
+//        }
+//            else
+//        {
+//            System.out.println("SIT BACK ~");
+//            System.out.println("RELAX ~");
+//            System.out.println("AND JOY THE SHOW ~");
+//        }
+
+          // Better Alternative Loops in JAVA:
+
+         // No 1 FOR LOOP:
+
+        //Print Numbers from 0 to 5000 using the for loop in JAVA:
+//        for(int i = 1; i <= 5000; i++)
+//        {
+//            System.out.println(i);
+//        }
+            // Print Numbers from 1 to 5000 using the for loop in JAVA:
+//        for(int i = 5000; i >= 1; i--)
+//        {
+//            System.out.println(i);
+//        }
+
+        // No 2 While Loop in JAVA:
+
+//        int i = 0;
+//        while (i <= 10000)
+//        {
+//            System.out.println(i);
+//            i++;
+//        }
+
+//        int i = 1;
+//        do {
+//            System.out.println(i);
+//            i++;
+//            } while (i <= 9);
+
+    // Switch & Case Statement in JAVA:
+
+//        System.out.println("Enter Your Name:");
+//        Scanner name = new Scanner(System.in);
+//        String Name = name.nextLine();
+//        System.out.println(STR."Your name is \{Name}.");
+//        System.out.println("Enter Your Age:");
+//        Scanner scan = new Scanner(System.in);
+//        int age = scan.nextInt();
+//
+//        switch (age)
+//        {
+//            case 2:
+//                System.out.println("You are just born");
+//                break;
+//            case 10:
+//                System.out.println("Please first of all, finish your high school");
+//                break;
+//            case 20:
+//                System.out.println("You are 20 years old");
+//                break;
+//            case 25:
+//                System.out.println("You're eligible for this post Sir");
+//                break;
+//            case 70:
+//                System.out.println("You're an old Sir & cannot eligible, for this post Sir");
+//                break;
+//            case 100:
+//                System.out.println("You're an old Sir & cannot doing this work with rapidly...");
+//                break;
+//            default:
+//                System.out.println("SIT BACK, RELAX & JOY THE SHOW");
+//                break;
+//        }
+
+//         VERY IMPORTANT (--> BREAK <--) KEYWORD LOGIC IN JAVA:
+
+//        int i = 0;
+//        while (true)
+//        {
+//            if (i == 3)
+//            {
+//                i++;
+//                continue;
+//            }
+//            System.out.println(i);
+//            i++;
+//            if (i > 7)
+//            {
+//                break;
+//            }
+//        }
+
+        // ( --> Try & Catch {<--Reserve Words} -->) Exception Handling In Java:
+
+//        int[][] marks = {{50, 60, 70}, {80, 90, 100}};
+//        try {
+//            System.out.println(marks[0][3]);
+//            }
+//        catch (Exception e)
+//        {
+//             // You Can Do Something After Catching Exception In Your Java Program:
+//             System.out.println("This marks in not available in this list...");
+//             System.out.println("You can see your marks on another Website or App, thank you...");
+//        }
+
+        // FUNCTIONS IN JAVA:
+
+//        add(10, 5, 5);
+
+//        caller();
+//        caller();
+//        caller();
+
+//        greeting("WELCOME HARRY SIR:");
+//        greeting("WELCOME APNA COLLEGE MAM:");
+
+
+   }
+}
+
+
